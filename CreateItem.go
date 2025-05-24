@@ -1,8 +1,8 @@
 package goews
 
 import (
-	"github.com/beorereleverion/go-ews/elements"
-	"github.com/beorereleverion/go-ews/operations"
+	"github.com/efeenesc/go-ews/elements"
+	"github.com/efeenesc/go-ews/operations"
 )
 
 // The CreateItem operation creates items in the Exchange store.
