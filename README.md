@@ -1,6 +1,6 @@
 # efeenesc/GO-EWS
 
-This is a fork of [beorereleverion/go-ews](https://github.com/beorereleverion/go-ews) - virtually the same, except this one allows sending emails to with multiple addresses in To, Cc, and Bcc fields.
+This is a fork of [beorereleverion/go-ews](https://github.com/beorereleverion/go-ews) - virtually the same, except this one allows sending emails with multiple addresses in To, Cc, and Bcc fields.
 
 golang library for interacion with [EWS Exchange Web Service](https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/web-services-reference-for-exchange) 
 
