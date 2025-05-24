@@ -10,13 +10,13 @@ type Message struct {
 	// The Attachments element contains the items or files that are attached to an item in the Exchange store.
 	Attachments *Attachments `xml:"Attachments"`
 	// The BccRecipients element represents a collection of recipients to receive a blind carbon copy (Bcc) of an e-mail message.
-	BccRecipients []*BccRecipients `xml:"BccRecipients"`
+	BccRecipients *BccRecipients `xml:"BccRecipients"`
 	// The Body element specifies the body of an item.
 	Body *Body `xml:"Body"`
 	// The Categories element contains a collection of strings that identify the categories to which an item in the mailbox belongs.
 	Categories *Categories `xml:"Categories"`
 	// The CcRecipients element represents a collection of recipients that will receive a copy of the message.
-	CcRecipients []*CcRecipients `xml:"CcRecipients"`
+	CcRecipients *CcRecipients `xml:"CcRecipients"`
 	// The ConversationId element contains the identifier of an item or conversation.
 	ConversationId *ConversationId `xml:"ConversationId"`
 	// The ConversationIndex element contains a binary ID that represents the thread to which this message belongs.
@@ -110,7 +110,7 @@ type Message struct {
 	// The Subject element represents the subject property of Exchange store items. The subject is limited to 255 characters.
 	Subject *Subject `xml:"Subject"`
 	// The ToRecipients element contains an array of recipients of an item. These are the primary recipients of an item.
-	ToRecipients []*ToRecipients `xml:"ToRecipients"`
+	ToRecipients *ToRecipients `xml:"ToRecipients"`
 	// The UniqueBody element represents an HTML fragment or plain text which represents the unique body of this conversation.
 	UniqueBody *UniqueBody `xml:"UniqueBody"`
 	// The WebClientEditFormQueryString element represents a URL to concatenate to the Outlook Web App endpoint to edit an item in Outlook Web App.
